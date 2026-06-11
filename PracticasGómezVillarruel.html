@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        let nombre = "Pablito";
+        let apellido = "María";
+        let estudiante = false;
+        let edad = 46;
+
+        const pi = 3.1416;
+        const IVA = 21;
+        const nombre_Curso = "Desarrollo web";
+
+        console.log(nombre, apellido, estudiante, edad, pi, IVA, nombre_Curso);
+        //const pi = 31; El error es que no se puede volver a declarar.Lo mismo con IVA
+        //Si le quito el comentario me aparece una leyenda no puede asignar valor a la constante y se detiene alli
+        /*Detiene el programa y hace que el codigo sea mas seguro*/
+
+        console.log("nombre del tipo:" + typeof nombre);
+        console.log("nombre del tipo:" + typeof pi);
+        console.log("nombre del tipo:" + typeof apellido);
+        console.log("nombre del tipo:" + typeof IVA);
+        console.log("nombre del tipo:" + typeof nombre_Curso);
+        console.log("nombre del tipo:" + typeof estudiante);
+
+
+        let contador = 0;
+        console.log("Contador Inicial:" + contador);
+        contador++;
+        console.log("contador:" + contador)
+        contador++;
+        console.log("contador:" + contador)
+        contador++;
+        console.log("contador:" + contador)
+        contador++;
+        console.log("contador:" + contador)
+        contador++;
+        console.log("contador Final:" + contador)
+
+
+        const MAXIMO = 10;
+        console.log("Maximo: " + MAXIMO);
+
+
+        var Antigüita = "Valor1";
+        console.log("Antuigua: " + Antigüita)
+        var Antigüita = "Valor2";
+        console.log("Antuigua: " + Antigüita)
+
+        /*
+        let nueva = "valor1";
+        let nueva = "valor2";            Uncaught SyntaxError: Identifier 'nueva' has already been declared 
+        console.log(nueva);
+        *
+
+    </script>
+
+
+
+</body>
+
+</html>
